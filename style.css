@@ -7,25 +7,15 @@
     box-sizing: border-box;
 }
 
-/* body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: auto;
-} */
-
+/* GLOBAL ELEMENT STYLES */
 button {
     border: 2px solid black;
     box-shadow: 3px 2px 3px black;
+    cursor: pointer;
 }
 
 h2 {
     font-size: 1.8rem;
-}
-
-/* IMG RESET */
-img {
-    max-width: 100%;
 }
 
 .container {
@@ -52,7 +42,6 @@ header input {
 header button {
     background-color: rgb(43,120,228);
     padding: 0.1rem 0.75rem;
-    border: 2px solid black;
     color: white;
 }
 
@@ -63,20 +52,16 @@ main {
 
 .col-1 {
     flex: 2;
-    /* height: 800px; */
-    /* background-color: rgba(197, 103, 103, 0.3);
-    border: 3px solid red; */
     margin-right: 1.5rem;
 }
 
 .col-2 {
     flex: 1;
-    /* height: 800px; */
     background-color: rgba(111, 197, 103, 0.3);
     border: 3px solid green;
 }
 
-/* DEFINITION 1 */
+/* DEFINITION BOXES */
 .def-box {
     display: flex;
     align-items: center;
@@ -93,7 +78,6 @@ main {
     display: flex;
     flex-direction: column;
     flex: 0 0 8rem;
-    /* margin: 0.5rem; */
     align-items: center;
 }
 
@@ -104,11 +88,19 @@ main {
     border: 2px solid black;
 }
 
-.ninja-word-likes .p-2 {
-    margin-bottom: 1rem;
+/* DEFINITION PARAGRAPH */
+.ninja-word-likes p.p-1 {
+    font-style: italic
+}
+
+.ninja-word-likes p.p-2 {
+    margin-bottom: 1.8rem;
+}
+
+.ninja-word-likes p.p-2 span {
+    font-style: italic;
 }
 
 p.definition {
     margin: 0 5rem;
 }
-
