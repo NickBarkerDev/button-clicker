@@ -7,13 +7,22 @@
     box-sizing: border-box;
 }
 
+button {
+    border: 2px solid black;
+    box-shadow: 3px 2px 3px black;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
 /* IMG RESET */
 img {
     max-width: 100%;
 }
 
 .container {
-    width: 60rem;
+    width: 50rem;
     margin: 0 auto;
 }
 
@@ -36,7 +45,7 @@ header input {
 header button {
     background-color: rgb(43,120,228);
     padding: 0.1rem 0.75rem;
-    box-shadow: 3px 2px 3px black;
+    border: 2px solid black;
     color: white;
 }
 
@@ -45,12 +54,12 @@ main {
     display: flex;
 }
 
-
 .col-1 {
     flex: 2;
     height: 800px;
     background-color: rgba(197, 103, 103, 0.3);
     border: 3px solid red;
+    margin-right: 1.5rem;
 }
 
 .col-2 {
@@ -59,3 +68,37 @@ main {
     background-color: rgba(111, 197, 103, 0.3);
     border: 3px solid green;
 }
+
+/* DEFINITION 1 */
+.def-box {
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    border: 2px solid black;
+    margin-bottom: 1.5rem;
+}
+
+.ninja-word-likes {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    width: 120px;
+    align-items: center;
+    width: 8.5rem;
+}
+
+.ninja-word-likes button {
+    margin-bottom: 1rem;
+    padding: 0.2rem 1.3rem;
+    background-color: rgb(255,217,102);
+    border: 2px solid black;
+}
+
+.ninja-word-likes .p-2 {
+    margin-bottom: 1rem;
+}
+
+.def-box .definition p {
+    margin: 0 auto;
+}
+
