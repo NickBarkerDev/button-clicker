@@ -24,11 +24,13 @@ function incrementLikes(){
     likeBtn1.addEventListener("click", function(){
         numLikes1.innerHTML++;
         alert("Ninja has been liked! Like count has been incremented.")
+        console.log(`Likes on button 1 have increased to ${numLikes1.innerHTML}`);
     })
 
     likeBtn2.addEventListener("click", function(){
         numLikes2.innerHTML++;
-        alert("Ninja has been liked! Like count has been incremented.")
+        alert("Ninja has been liked! Like count has been incremented.");
+        console.log(`Likes on button 1 have increased to ${numLikes2.innerHTML}`);
     })
 }
 
