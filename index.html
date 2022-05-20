@@ -12,7 +12,7 @@
     <header>
         <h1>Dojonary</h1>
         <input type="text" placeholder="Search" />
-        <button>Login</button>
+        <button onclick="toggleLogin(this)">Login</button>
     </header>
 
     <main>
@@ -22,7 +22,7 @@
                     <h2>ninja</h2>
                     <p class="p-1">noun</p>
                     <p class="p-2">Plural: <span>ninjas</span></p>
-                    <button>13 likes</button>
+                    <button onclick="alert('Ninja was liked!')">13 likes</button>
                 </div>
                 <!-- ninja-word-likes -->
 
@@ -37,7 +37,7 @@
                     <h2>ninja</h2>
                     <p class="p-1">noun</p>
                     <p class="p-2">Plural: <span>ninjas</span></p>
-                    <button>13 likes</button>
+                    <button onclick="alert('Ninja was liked!')">37 likes</button>
                 </div>
                 <!-- ninja-word-likes -->
 
@@ -51,7 +51,7 @@
         <div class="col-2">
             <div class="add-def">
                 <p>Dojonary is defined by <span>YOU</span></p>
-                <button>Add Definition</button>
+                <button onclick="this.remove()">Add Definition</button>
             </div>
         </div>
         <!-- col-2 -->
